@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<listeners>
+	<listener class-name="Testcases.iTestListner"></listener>
+	</listeners>
+  <test name="Test Group Execution">
+   <!-- Specify Classes to Run -->
+   <groups>
+            <run>
+                <include name="smoke"/>
+        		<include name="sanity"/>
+         		<exclude name="regression"/>
+            </run>
+        </groups>
+   <classes>
+  		 <class name="Testcases.Group_tests_Xml"/>
+   </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Testcases_ARD.MyATRs_CompleteFlow">
+        <methods>
+          <include name="beforetest"/>
+          <include name="beforeMethod"/>
+          <include name="TC_07_ValidateTestAcceptFromAnalyst"/>
+          <include name="TC_03_ValidateTestSubmission"/>
+          <include name="TC_04_ValidateTestVerifying"/>
+          <include name="TC_05_ValidateTestRequestEnhancement"/>
+          <include name="TC_06_ValidateRequestEnTestAssighningAndProcessTest"/>
+          <include name="beforesuite"/>
+          <include name="TC_01_ValidateATRsubmission"/>
+          <include name="afterSuite"/>
+          <include name="TC_02_ValidateTestAssghining"/>
+          <include name="AfterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- Testcases_ARD.MyATRs_CompleteFlow -->
+      <class name="Testcases_ARD.TeamCreation">
+        <methods>
+          <include name="TC_07_ValidateCreatingTemplateSections"/>
+          <include name="TC_08_ValidateCreatingExperimentTemplate"/>
+          <include name="beforeMethod"/>
+          <include name="TC_09_ValidateExperimentTemplateSubmitandApprove"/>
+          <include name="TC_04_ValidateCreatingTestGroup"/>
+          <include name="afterSuite"/>
+          <include name="TC_01_ValidateTeamCreation"/>
+          <include name="TC_03_ValidateCreatingTestConfiguration"/>
+          <include name="TC_02_ValidateTestTechniqueCreation"/>
+          <include name="beforetest"/>
+          <include name="afterTest"/>
+          <include name="TC_06_ValidateCreatingFormType"/>
+          <include name="AfterMethod"/>
+          <include name="TC_05_ValidateCreatingATRAtrributes"/>
+          <include name="TC_06_ValidateCreatingTemplateDataItems"/>
+          <include name="beforesuite"/>
+        </methods>
+      </class> <!-- Testcases_ARD.TeamCreation -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
